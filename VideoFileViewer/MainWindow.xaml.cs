@@ -88,7 +88,6 @@ namespace VideoFileViewer
             _imageViewerWpfControl.Disconnect();
             _imageViewerWpfControl.Close();
 
-            // Select Camera
             ItemPickerWpfWindow itemPicker = new ItemPickerWpfWindow()
             {
                 KindsFilter = new List<Guid> { Kind.Camera },
