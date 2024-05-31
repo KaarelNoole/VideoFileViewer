@@ -16,7 +16,7 @@ namespace VideoFileViewer
         private static readonly Guid IntegrationId = new Guid("6F636F95-59C7-40FF-BBBF-F3C6D9EB549E");
         private const string IntegrationName = "Video File Viewer";
         private const string Version = "2.0";
-        private const string ManufacturerName = "Sample Manufacturer";
+        private const string ManufacturerName = "Manufacturer";
 
         private Item _camera;
         private string _selectedStoragePath;
